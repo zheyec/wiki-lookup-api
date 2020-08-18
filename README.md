@@ -27,7 +27,7 @@ https://baike.baidu.com/
 
 ## 4. Response
 
-###4.1 If look-up was successful:
+### 4.1 If look-up was successful:
 
 If the look-up was successful, first return the synopsis, then return a message card containing the link to the relevant article.
 
