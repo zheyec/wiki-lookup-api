@@ -14,8 +14,8 @@ https://baike.baidu.com/
 
 ## 3. Triggers
 
-- **Keyword** wiki
-- what is **Keyword**
+- *Keyword* wiki
+- what is *Keyword*
 
 > Examples:
 >
@@ -47,7 +47,7 @@ Message card:
 
 If an error occurred during the look-up, give the following reply:
 
-Sorry, there was an error in looking up **Keyword**.
+Sorry, there was an error in looking up *Keyword*.
 
 ## Details
 
