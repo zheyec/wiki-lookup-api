@@ -1,0 +1,14 @@
+# github.com/PuerkitoBio/goquery v1.5.1
+## explicit
+github.com/PuerkitoBio/goquery
+# github.com/aliyun/aliyun-oss-go-sdk v2.1.2+incompatible
+## explicit
+github.com/aliyun/aliyun-oss-go-sdk/oss
+# github.com/andybalholm/cascadia v1.1.0
+github.com/andybalholm/cascadia
+# golang.org/x/net v0.0.0-20200202094626-16171245cfb2
+golang.org/x/net/html
+golang.org/x/net/html/atom
+# golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e
+## explicit
+golang.org/x/time/rate
