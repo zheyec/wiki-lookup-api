@@ -1,6 +1,18 @@
-# Wiki Knowledge
+# Wiki Article Look-up API
 
 This is a wiki article look-up API. It was originally made for a chatbot product that was a real-world business project.
+
+## Details
+
+This application uses Go as the primary language and crawls webpages with goquery. Crawler results are stored as local json files to avoid over-crawling.
+
+- When the server is up, there will be two APIs:
+  - an API for returning text messages (synopsis of wiki articles)
+  - an API for returning message cards
+- The chatbot should send a request to the first API and get the text response and card id. From that, it can use the card id to request a message card from the second API.
+- Frequency settings:
+  - results from crawlers: kept in local files for 1 hour
+  - message cards: kept in local files for 1 minute
 
 ## 1. Format
 
@@ -49,15 +61,7 @@ If an error occurred during the look-up, give the following reply:
 
 Sorry, there was an error in looking up *Keyword*.
 
-## Details
 
-- When the server is up, there will be two APIs:
-  - an API for returning text messages (synopsis)
-  - an API for returning message cards
-- The chatbot should send a request to the first API and get the text response and card id. From that, it can use the card id to request a message card from the second API.
-- Frequency settings:
-  - results from crawlers: kept in local files for 1 hour
-  - message cards: kept in local files for 1 minute
 
 ## Local Test
 
